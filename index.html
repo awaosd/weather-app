@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather app</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+AU+QLD:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
+
+    <div class="container">
     <header>
-      <form>
-        <input type="text" placeholder="Enter a city" required />
-        <input type="submit" value="Search" />
+      <form class="search-form">
+        <input type="text" placeholder="Enter a city" required class="enter-city"/>
+        <input type="submit" value="Search" class="submit-button" />
       </form>
     </header>
     <main>
@@ -37,5 +42,6 @@
         >Netifly</a
       >
     </footer>
+    </div>
   </body>
 </html>
