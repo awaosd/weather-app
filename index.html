@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+AU+QLD:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  </head>
+   <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script> 
+</head>
   <body>
 
     <div class="container">
@@ -21,7 +22,7 @@
     <main>
       <div class="forecast"> 
         <div>
-      <h1 class="forecast-city" id="forecast-city">London</h1>
+      <h1 class="forecast-city" id="forecast-city"></h1>
         <p class="forecast-details">
           Wednesday 18:09, overcast clouds
            <br />
@@ -30,7 +31,7 @@
         </div>
       <div class="forecast-right-side">
         <div class="forecast-emoji">&#127749 </div>
-          <div class="forecast-temperature">20</div>
+          <div class="forecast-temperature" id="current-temperature"></div>
           <div class="forecast-temperature-sign" > °C </div>
       </div>
     </main>
@@ -48,5 +49,6 @@
     </footer>
     </div>
     <script src="src/index.js"></script>
+   
   </body>
 </html>
