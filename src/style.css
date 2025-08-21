@@ -28,3 +28,38 @@ body {
   padding: 6px;
   width: 15%;
 }
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 15px 0 0;
+}
+.forecast {
+  display: flex;
+  justify-content: space-between;
+}
+.forecast-city {
+  font-size: 40px;
+  margin-top: 20px;
+}
+.forecast-details {
+  color: gray;
+}
+.forecast-details strong {
+  color: red;
+}
+.forecast-right-side {
+  display: flex;
+  margin-top: 20px;
+}
+.forecast-temperature {
+  font-size: 70px;
+  font-weight: 800;
+}
+.forecast-emoji {
+  font-size: 50px;
+  margin-top: 10px;
+}
+.forecast-temperature-sign {
+  font-size: 20px;
+  font-weight: 800;
+}
