@@ -15,7 +15,7 @@ function findWeather(response) {
 
   details.innerHTML = `${response.data.condition.description}`;
   humidity.innerHTML = `${response.data.temperature.humidity}%`;
-  wind.innerHTML = `${response.data.wind.speed}km/h`;
+  wind.innerHTML = `${response.data.wind.speed} km/h`;
   dateElement.innerHTML = formatDate(date);
 }
 function formatDate(date) {
