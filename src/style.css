@@ -5,7 +5,7 @@ body {
 
 .container {
   background: #f5c7f7;
-  max-width: 90%;
+  max-width: 600px;
   border-radius: 10px;
   padding: 20px;
   margin: 50px auto;
@@ -62,34 +62,4 @@ footer {
 .forecast-temperature-sign {
   font-size: 20px;
   font-weight: 800;
-}
-.weather-forecast-date {
-  text-align: center;
-  color: gray;
-  font-size: 16px;
-  line-height: 20px;
-  margin-top: 20px;
-}
-.weather-forecast-emoji {
-  text-align: center;
-  font-size: 25px;
-  line-height: 20px;
-}
-
-.weather-forecast-temperatures {
-  font-size: 16px;
-  line-height: 20px;
-  padding: 0 10px;
-  justify-content: center;
-  margin: 10px;
-  display: flex;
-}
-.weather-forecast-high {
-  font-weight: bold;
-  color: red;
-  padding: 0 10px;
-  text-align: center;
-}
-.weather-forecast-temperature-low {
-  color: gray;
 }
